@@ -1,6 +1,8 @@
 # UDacity Blog and Code: Problem Definition & Data Collection
 
-This repo was created for UDacity's Blog Post Assignment. Python code, the dataset processed, and this readme file is included.
+This repo was created for UDacity's Blog Post Assignment. Python code, the dataset processed, and this readme file is included. If you wish to review the blog post. Click on the below link:
+
+https://medium.com/@logik.machinelearning/what-does-it-take-to-learn-code-2d8dbfe61b7c
 
 Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. The data contained upwards of around forty-eight available columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
 
