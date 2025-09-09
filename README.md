@@ -30,7 +30,7 @@ import zipfile
 
 import os
 
-The code should run fine without having to download the datasets I used for this project but here are the data links just in case:
+The code should run fine without having to download the datasets because the code already reads the data from the links and convert the csv's into dataframes. If you encounter issues with the code, you can download the data from this repo or from the attached links below:
 
 https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2024.zip
 
@@ -39,6 +39,7 @@ https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2023.zi
 https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2022.zip
 
 https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2021.zip
+
 
 # Potential Challenges
 You will run into issues with one row of data that displays "unset" randonmly across several columns. It changes everytime you run the code from scratch. Displat multiple attempts to remove this row, I was not succesful,
