@@ -1,5 +1,8 @@
-# UDacity-coding-fun
-This repo was created for UDacity's Blog Post Assignment. Python code, the dataset processed, and a readme file are included.
+# UDacity Blog and Code: Problem Definition & Data Collection
+
+This repo was created for UDacity's Blog Post Assignment. Python code, the dataset processed, and this readme file is included.
+
+Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. The data contained upwards of around forty-eight available columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
 
 # Running Code
 
@@ -41,10 +44,6 @@ https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2021.zi
 You will run into issues with one row of data that displays "unset" randonmly across several columns. It changes everytime you run the code from scratch. Displat multiple attempts to remove this row, I was not succesful,
 
 
-
-# Problem Definition & Data Collection
-
-Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. The data contained upwards of around forty-eight available columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
 
 
 
