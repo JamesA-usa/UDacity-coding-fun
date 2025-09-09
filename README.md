@@ -1,12 +1,11 @@
 # UDacity Blog and Code: Problem Definition & Data Collection
 
-This repo was created for UDacity's Blog Post Assignment. Python code, the dataset processed, and this readme file is included. If you wish to review the blog post. Click on the below link:
+This repo was created for UDacity's Blog Post Assignment. Python code in a jupyter notebook format, the datasets used, and this readme file are included. If you wish to review the blog post. Click on the below link:
 
 https://medium.com/@logik.machinelearning/what-does-it-take-to-learn-code-2d8dbfe61b7c
 
-Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. The data contained upwards of around forty-eight available columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
 
-# Running Code
+# Getting Started
 
 This code works inside of a jupyter notebook so it should run without any setup. In case you decide to copy the code into an IDE, import the following libraries:
 
@@ -47,8 +46,9 @@ https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2021.zi
 You will run into issues with one row of data that displays "unset" randonmly across several columns. It changes everytime you run the code from scratch. Displat multiple attempts to remove this row, I was not succesful,
 
 
+# Problem Definition & Data Collection
 
-
+Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. The data contained upwards of around forty-eight available columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
 
 # Data Preparation
 
@@ -82,7 +82,7 @@ While the learn code column was not used in this study, it remained unparsed for
 
 •	YearsCode – object data type
 
-#
+
 Parsing began in order of importance.
 
 •	YearsCode column: NULL and non-numerical values were removed followed by modifying the data type to integer from object. 
