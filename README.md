@@ -1,6 +1,47 @@
 # UDacity-coding-fun
 This repo was created for UDacity's Blog Post Assignment. Python code, the dataset processed, and a readme file are included.
 
+# Running Code
+
+This code works inside of a jupyter notebook so it should run without any setup. In case you decide to copy the code into an IDE, import the following libraries:
+
+import pandas as pd
+
+import numpy as np
+
+import matplotlib.pyplot as plt
+
+import seaborn as sns
+
+from sklearn.model_selection import train_test_split
+
+from sklearn.ensemble import RandomForestRegressor
+
+from sklearn.metrics import mean_squared_error, r2_score
+
+from uuid import uuid4
+
+import requests
+
+import zipfile
+
+import os
+
+The code should run fine without having to download the datasets I used for this project but here are the data links just in case:
+
+https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2024.zip
+
+https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2023.zip
+
+https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2022.zip
+
+https://survey.stackoverflow.co/datasets/stack-overflow-developer-survey-2021.zip
+
+# Potential Challenges
+You will run into issues with one row of data that displays "unset" randonmly across several columns. It changes everytime you run the code from scratch. Displat multiple attempts to remove this row, I was not succesful,
+
+
+
 # Problem Definition & Data Collection
 
 Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. The data contained upwards of around forty-eight available columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
