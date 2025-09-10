@@ -149,17 +149,17 @@ Effort was applied against tree classification and random forest regression mode
 
 Random Forest Regressor Metrics:
 
-Mean squared error: 0.0150
+Mean squared error: 0.0142
 
-Root mean squared error: 0.1226
+Root mean squared error: 0.1192
 
-Mean absolute squared error: 0.0903
+Mean absolute squared error: 0.0865
 
-R-squared score: 0.6392
+R-squared score: 0.6568
 
 # Evaluation
 
-The r-squared value of 0.6392 indicates the model fits the data well at 63.92%. The mean squared error (MSE) values of 0.0150 means the model’s predictions are great because the average difference is low between the predicted value and the actual value. Between the four metrics, I would use MSE to explain the model’s performance which means the model’s ability to predict years of coding experience, based on the age, work role, and education, is off by less than a year.
+The r-squared value of 0.6568 indicates the model fits the data well at 65.68%. The mean squared error (MSE) values of 0.0142 means the model’s predictions are great because the average difference is low between the predicted value and the actual value. Between the four metrics, I would use MSE to explain the model’s performance which means the model’s ability to predict years of coding experience, based on the age, work role, and education, is off by less than a year.
 
  Source
 
