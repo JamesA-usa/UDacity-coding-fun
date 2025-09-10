@@ -48,7 +48,7 @@ You will run into issues with one row of data that displays "unset" randonmly ac
 
 # Problem Definition & Data Collection
 
-Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. The data contained upwards of around forty-eight available columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
+Data from 2021 to 2024 was collected from the Stack Overflow Annual Developer Survey [1]. The survey data was used to evaluate whether age, education, or work role impacted coding experience and which of those variables influenced years of coding the most. Each years' worth of data contained between 48 and 114 columns (depending on year) so the most relevant columns were selected after a preliminary data review. 
 
 # Data Preparation
 
